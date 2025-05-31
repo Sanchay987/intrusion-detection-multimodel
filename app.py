@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load model and preprocessors
-model = joblib.load("models/final_rf_model_copy1.pkl")
+model = joblib.load("models/final_rf_model_Copy1.pkl")
 scaler = joblib.load("models/final_scaler.pkl")
 encoders = joblib.load("models/final_encoders.pkl")  # Dictionary of LabelEncoders
 label_encoder = joblib.load("models/final_label_encoder.pkl")  # For decoding labels if needed

@@ -19,15 +19,12 @@ intrusion-detection-multimodel/
 │   └── final_label_encoder.pkl      # LabelEncoder for labels
 │
 ├── data/
-│   └── processed/
 │       ├── X_train.csv
 │       ├── X_val.csv
 │       ├── y_train.csv
 │       └── y_val.csv
 │
 └── notebooks/
-    ├── 01_EDA_Preprocessing.ipynb
-    ├── 02_Model_Training.ipynb
     └── 08_Streamlit_Web_App_Preparation.ipynb
 ```
 
@@ -78,22 +75,11 @@ intrusion-detection-multimodel/
 ## 🚀 Run the Web App
 
 ### 🔹 Local Setup
-
 1. Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
 2. Run app locally:
-
-```bash
 streamlit run app.py
-```
-
 3. Go to browser:
-
-```
 http://localhost:8501
 ```
 
